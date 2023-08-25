@@ -5,7 +5,7 @@ import './header.css'
 
 const Header = () => {
     return ( 
-        <div className='gpt3__header-container section__padding'>
+        <div className='gpt3__header-container '>
             <div className="gpt3__header-groupA">
                 <h1 className="gradient-text">
                     Let's Build Something amazing with GPT-3 OpenAI
@@ -13,14 +13,12 @@ const Header = () => {
                 <p>
                     Yet bed any of travelling assistance indulgence unpleasing. Not thoughts all exercising blessings.Indulgence way everything joy alternation boisterous the attachment. Party we years to order allow asked of.
                 </p>
-                <div>
-                    <form>
+                <div className='gpt3__header-subscribe'>
                         <input 
                             type="text" 
-                            placeholder='Your Email Address ...'
+                            placeholder='Your Email Address...'
                          />
                          <button type='submit'>Get Started</button>
-                    </form>
                 </div>
                 <div className='gpt3__header-people'>
                     <img src={peopleImg} alt="people" />
