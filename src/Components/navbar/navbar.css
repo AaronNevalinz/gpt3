@@ -1,0 +1,104 @@
+.gpt3__navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.gpt3__navbar-groupA{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.gpt3__navbar-groupA img{
+    width: 54px;
+    height: 20px;
+}
+.gpt3__navbar-links{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.gpt3__navbar-links p{
+    cursor: pointer;
+}
+.gpt3__navbar-buttons{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.gpt3__navbar-buttons button{
+    background: #ff4820;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    padding: 1rem 1.7rem;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+.gpt3__navbar-menu__mobile-container{
+    display: none;
+    position: relative;
+}
+.gpt3__navbar-menu__mobile-container svg{
+    cursor: pointer;
+}
+.gpt3__navbar-menu-mobile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 2rem;
+    background: var(--color-footer);
+    min-width: 210px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.gpt3__navbar-menu-mobile p{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.gpt3__navbar__mobile-btn{
+    display: none;
+}
+@media screen and (max-width:1050px) {
+    .gpt3__navbar-container{
+        justify-content: space-between;
+    }
+    .gpt3__navbar-links{
+        display: none;
+    }
+    .gpt3__navbar-menu__mobile-container{
+        display: block;
+    }
+}
+@media screen and (max-width:550px){
+    .gpt3__navbar-buttons{
+        display: none;
+    }
+    .gpt3__navbar__mobile-btn{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .gpt3__navbar__mobile-btn button{
+        background: #ff4820;
+        border: none;
+        outline: none;
+        font-family: var(--font-family);
+        padding: 1rem 1.7rem;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #fff;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+}
