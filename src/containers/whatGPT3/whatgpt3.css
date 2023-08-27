@@ -44,3 +44,8 @@
         margin-bottom: 1rem;
     }
 }
+@media screen and (max-width:720px) {
+    .gpt3__whatgpt-container{
+        padding: 3rem 1.5rem;
+    }
+}

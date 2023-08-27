@@ -19,7 +19,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     
     return ( 
-        <div className='gpt3__navbar-container section__padding'>
+        <div className='gpt3__navbar-container '>
             <div className='gpt3__navbar-groupA'>
                 <img src={gpt3Logo} alt="logo" />
                 <div className='gpt3__navbar-links'>

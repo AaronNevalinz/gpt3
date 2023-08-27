@@ -51,3 +51,9 @@ gpt3__blog{
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width:550px) {
+    .gpt3__blog-heading h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
