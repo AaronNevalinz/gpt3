@@ -1,0 +1,53 @@
+.gpt3__CTA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--gradient-bar);
+    border-radius: 8px;
+    padding: 2rem;
+}
+.gpt3__CTA-content{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+
+    flex-direction: column;
+}
+.gpt3__CTA-content p{
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+.gpt3__CTA-content h1{
+    font-size: 24px;
+}
+
+.gtp3__CTA-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+}
+.gtp3__CTA-button button{
+    min-width: 180px;
+    padding: 1.2rem;
+    outline: none;
+    border: none;
+    background: var(--color-bg);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 28px;
+    text-align: center;
+}
+@media screen and (max-width:920px) {
+    .gpt3__CTA{
+        flex-direction: column;
+    }
+    .gpt3__CTA-content{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

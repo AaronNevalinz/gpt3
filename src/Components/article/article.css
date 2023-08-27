@@ -1,0 +1,33 @@
+.gpt3__article{
+    background: var(--color-footer);
+
+    width: 100%;
+    height: 100%;
+}
+.gpt3__article-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.gpt3__article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    color: #fff;
+    padding: 1rem 1.5rem;
+    /* height: 100%; */
+}
+.gpt3__article-content-heading{
+    margin-bottom: 4rem;
+}
+.gpt3__article-content-heading p{
+    font-size: 12px;
+}
+.gpt3__article-content-heading h4{
+    margin: 1rem 0;
+}
+.gpt3__article-content p:last-child{
+    cursor: pointer;
+    font-size: 12px;
+}
