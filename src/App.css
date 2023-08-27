@@ -31,6 +31,9 @@ a{
     .section__padding{
         padding: 2rem;
     }
+    .section__margin{
+        margin: 2rem;
+    }
 }
 /* scale-up animation start */
 .scale-up-center {
