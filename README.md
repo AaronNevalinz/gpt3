@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## screenshots
+![Screenshot 2023-10-04 at 08-28-47 GPT3](https://github.com/AaronNevalinz/gpt3/assets/76948733/f560b9f6-9c16-47c9-97ca-2142412d4748)
+
+![Screenshot 2023-10-04 at 08-30-55 GPT3](https://github.com/AaronNevalinz/gpt3/assets/76948733/8dcdd2f9-b327-4f12-a7d4-4122fb61ddf1)
+
+### mobile
+![Screen Shot 2023-10-04 at 08 32 02](https://github.com/AaronNevalinz/gpt3/assets/76948733/7378d3a5-b018-4112-b09a-1ff1efb11a1f)
+
 ## Available Scripts
 
 In the project directory, you can run:
